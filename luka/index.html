@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luka Frizz - Современный Веб-сайт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Luka Frizz</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Контакты</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Бегущие ленты -->
+    <div class="ticker-container">
+        <div class="ticker ticker-1">
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+        </div>
+        <div class="ticker ticker-2">
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+        </div>
+        <div class="ticker ticker-3">
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+            <div class="ticker-item">#Клянись</div>
+        </div>
+    </div>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+                        <div class="hero-content">
+                <h1 class="hero-title">Luka Frizz</h1>
+                                <h2 class="hero-subtitle">Официальный сайт fame - тролля, добро пожаловать в адский обитель прямо на обрыве скалы сети Telegram</h2>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Начать проект</button>
+                    <button class="btn btn-secondary">Узнать больше</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-rocket"></i>
+                    <div class="hero-quote">
+                        <p>пока дурак жалуется на дырявый карман - мудрец (Лука) чешет через него яйца</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Каталог -->
+    <section id="catalog" class="catalog">
+        <div class="container">
+            <h2 class="section-title">Каталог товаров</h2>
+            <div class="catalog-filters">
+                <button class="filter-btn active" data-category="all">Все</button>
+                <button class="filter-btn" data-category="electronics">Электроника</button>
+                <button class="filter-btn" data-category="clothing">Одежда</button>
+                <button class="filter-btn" data-category="accessories">Аксессуары</button>
+            </div>
+            <div class="catalog-grid">
+                <div class="product-card" data-category="electronics">
+                    <div class="product-image">
+                        <i class="fas fa-laptop"></i>
+                        <div class="product-badge">Новинка</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gaming Laptop Pro</h3>
+                        <p>Мощный игровой ноутбук с RTX 4080</p>
+                        <div class="product-price">
+                            <span class="price">₽189,999</span>
+                            <span class="old-price">₽249,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electronics">
+                    <div class="product-image">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="product-badge">Хит</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>SmartPhone X</h3>
+                        <p>Флагманский смартфон с 5G</p>
+                        <div class="product-price">
+                            <span class="price">₽89,999</span>
+                            <span class="old-price">₽119,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="clothing">
+                    <div class="product-image">
+                        <i class="fas fa-tshirt"></i>
+                        <div class="product-badge">Sale</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cyberpunk Hoodie</h3>
+                        <p>Стильная худи в киберпанк стиле</p>
+                        <div class="product-price">
+                            <span class="price">₽4,999</span>
+                            <span class="old-price">₽7,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="clothing">
+                    <div class="product-image">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Neon Sneakers</h3>
+                        <p>Кроссовки с неоновой подсветкой</p>
+                        <div class="product-price">
+                            <span class="price">₽12,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <i class="fas fa-headphones"></i>
+                        <div class="product-badge">Топ</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wireless Headphones</h3>
+                        <p>Беспроводные наушники с шумоподавлением</p>
+                        <div class="product-price">
+                            <span class="price">₽15,999</span>
+                            <span class="old-price">₽19,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <i class="fas fa-watch"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smart Watch Pro</h3>
+                        <p>Умные часы с мониторингом здоровья</p>
+                        <div class="product-price">
+                            <span class="price">₽24,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electronics">
+                    <div class="product-image">
+                        <i class="fas fa-gamepad"></i>
+                        <div class="product-badge">Игра</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Gaming Controller</h3>
+                        <p>Профессиональный геймпад для ПК</p>
+                        <div class="product-price">
+                            <span class="price">₽8,999</span>
+                            <span class="old-price">₽11,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="accessories">
+                    <div class="product-image">
+                        <i class="fas fa-keyboard"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>RGB Keyboard</h3>
+                        <p>Механическая клавиатура с RGB подсветкой</p>
+                        <div class="product-price">
+                            <span class="price">₽6,999</span>
+                        </div>
+                        <button class="btn btn-primary">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Новости -->
+    <section id="news" class="news">
+        <div class="container">
+            <h2 class="section-title">Новости</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/ff0000?text=Новость+1" alt="Новость 1">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">15 декабря 2024</span>
+                            <span class="news-category">Обновления</span>
+                        </div>
+                        <h3>Новые возможности платформы</h3>
+                        <p>Представляем революционные обновления, которые изменят ваш опыт использования наших сервисов</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/ff0000?text=Новость+2" alt="Новость 2">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">12 декабря 2024</span>
+                            <span class="news-category">События</span>
+                        </div>
+                        <h3>Грядущие события и встречи</h3>
+                        <p>Узнайте о предстоящих мероприятиях и возможностях для networking в нашем сообществе</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/ff0000?text=Новость+3" alt="Новость 3">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">10 декабря 2024</span>
+                            <span class="news-category">Технологии</span>
+                        </div>
+                        <h3>Инновации в мире технологий</h3>
+                        <p>Последние тренды и разработки, которые формируют будущее цифрового мира</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="https://via.placeholder.com/400x250/1a1a1a/ff0000?text=Новость+4" alt="Новость 4">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">8 декабря 2024</span>
+                            <span class="news-category">Сообщество</span>
+                        </div>
+                        <h3>Развитие сообщества</h3>
+                        <p>Как мы строим сильное сообщество единомышленников и поддерживаем друг друга</p>
+                        <a href="#" class="read-more">Читать далее</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Стало интересно? свяжитесь с Лукой и его представителями</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fab fa-telegram"></i>
+                            <span><a href="https://t.me/FR1E3A" target="_blank">t.me/FR1E3A - Лука</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-telegram"></i>
+                            <span><a href="https://t.me/lukagodlike" target="_blank">t.me/lukagodlike - Менеджер</a></span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-telegram"></i>
+                            <span><a href="https://t.me/lukafrizzbest" target="_blank">t.me/lukafrizzbest - Отзывы</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Luka Frizz</h3>
+                    <p>Luka Frizz - надежный человек который достанет любую дрянь интернета прямо вам под двери.</p>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Luka Frizz. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

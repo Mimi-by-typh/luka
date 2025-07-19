@@ -1,0 +1,37 @@
+{
+  "name": "modern-website",
+  "version": "1.0.0",
+  "description": "Современный адаптивный веб-сайт с красивым дизайном",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/ --watch=.",
+    "build": "echo 'Сборка завершена'",
+    "lint": "eslint script.js",
+    "format": "prettier --write '**/*.{html,css,js}'",
+    "serve": "http-server -p 8000 -o",
+    "browsersync": "browser-sync start --server --files '**/*.{html,css,js}' --port 3000"
+  },
+  "keywords": [
+    "website",
+    "responsive",
+    "modern",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1",
+    "browser-sync": "^2.29.3",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+} 
